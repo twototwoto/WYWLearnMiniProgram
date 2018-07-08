@@ -1,0 +1,11 @@
+view{
+  width: 100%;
+  /**
+  * 响应式的屏幕像素
+  */
+  height: 40rpx;
+  /**
+  * 居中显示
+  */
+  text-align: center;
+}

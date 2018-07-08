@@ -1,0 +1,26 @@
+<view>
+  Hello World!
+</view>
+
+<!-- 数据绑定  -->
+<view>
+  <text>{{message}}</text>
+</view>
+
+<!--下边的两种数据绑定的内容没有展示出来  -->
+<!--数据绑定  -->
+<view>
+  <text data-name="{{theName}}">
+  </text>
+</view>
+
+<!--数据绑定  -->
+
+<view>
+  <text data-name="ITCoderW">
+  </text>
+</view>
+
+<view hidden="{{flag ? true : false}}">
+  Hidden
+</view>
